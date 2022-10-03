@@ -10,7 +10,8 @@ values  (1, 'Admin', 'Adminov', 25, 'admin@mail.ru', '$2a$12$/yGReAhaKpBg9eccLeI
         
 insert into rest_db.users_roles (user_id, role_id)
 values  (1, 1),
+        (1, 2),
         (2, 1),
         (3, 1),
-        (13, 1),
-        (1, 2);        
+        (13, 1);
+              
