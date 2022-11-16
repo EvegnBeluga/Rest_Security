@@ -14,7 +14,8 @@ public class UserRestController {
 
     @GetMapping()
     public ResponseEntity<User> getUser(Authentication auth) {
-        return new ResponseEntity<>((User) auth.getPrincipal(), HttpStatus.OK);
+        return new ResponseEntity<>((User) auth.getPrincipal(),
+                HttpStatus.OK);
     }
 
 }
